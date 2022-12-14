@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    text-align: center;
+    margin :auto;
+    text-decoration: none; 
+
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+body{
+    margin: 10px;
+
+    align-items: center;
+    align-content: center;
+
+    background-image: linear-gradient(rgb(172, 172, 172), rgb(148, 148, 42));
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #999b8fc9;
+    width: 100px;
+    height: auto;
+    padding: auto;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width: 400px;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: #292b28;
+}
+h3{
+    text-align: center;
+    color: white;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    padding: 5px;
+    width: 200px;
+    height: 16px;
+    font-size: 17px;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    background-color: #0d640a;
+    border-radius: 30px;
+    width: 350px;
+    font-size: 16px;
+}
+
+a {
+    color:inherit ; 
+} 
+
+abbr{
+    color: inherit;
+    font-size: 15px;
+
+}
+
+label{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.carrousel{
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    max-width: 1500px;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain ;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+    background-color: #00000069;
+    border-radius: 15px;
+}
+
+.card{
+    width: 130px;
+    height: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 20px;
+    color:antiquewhite;
+}
+.grupo{
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 0.4px none;
+    align-content: center;
+    width: 50%; 
+    margin: 0px auto;
+}
+
+.genero{
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 20px none;
+    width: 50%; 
+    margin: 0px auto;
+} 
+
+.checkcbox_custom{
+    background-color: none;
+}
+
+.container:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark{
+    background-color: #ff0a54;
+}
+
+.uf{
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+.personagem{
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 0.4px none;
+    align-content: center;
+    width: 50%; 
+    margin: 0px auto;
+}
+
+.experiencia{
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    border: 0.4px none;
+    border-radius: 30px;
+    align-content: center;
+    width: 60%; 
+    margin: 0px auto;
+}
+
+#experiencia{
+    border: 2px solid #2F2325;
+}
+
+
+.senioridade{
+    font-size: 16px;
+    border-radius: 6px;
+    width: 150px;
+    height: 25px;
+}
+
+.nome{   
+    display: block;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.sobrenome{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+.email{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.cabecalho-item:hover {
+    color: rgb(255, 230, 0);
+}
+
+.cabecalho{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cabecalho-foto{
+    height: 120px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.concluido:hover {
+    background-color: rgb(14, 148, 238);
+}
+
+.concluido{
+    background-color: antiquewhite;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color:#2F2325 ;
+}
+
+.conteudo-secundario{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.rodape{
+    width: auto;
+    padding: 20px;
+    border-top: 0.4px solid #FFF2E7;
+}
+ 
+
+.titulo_formulario{
+    background-color: black;
+    width: 500px;
+    padding-bottom: 8px; 
+    border-radius: 40px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
