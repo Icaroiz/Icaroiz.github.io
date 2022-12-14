@@ -1,0 +1,617 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    text-align: center;
+    margin :auto;
+    text-decoration: none; 
+
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+body{
+    margin: 10px;
+
+    align-items: center;
+    align-content: center;
+
+    background-image: linear-gradient(rgb(172, 172, 172), rgb(148, 148, 42));
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #999b8fc9;
+    width: 100px;
+    height: auto;
+    padding: auto;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width: 400px;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: #292b28;
+}
+h3{
+    text-align: center;
+    color: white;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    padding: 5px;
+    width: auto;
+    height: 16px;
+    font-size: 17px;
+}
+h4{
+    text-align: center;
+    color: white;
+    background-color: #0d640a;
+    border-radius: 30px;
+    width: 350px;
+    font-size: 16px;
+}
+
+p{  
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin :auto;
+    padding: 15px;
+}
+
+li{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+ol{
+    color: white;
+    text-align: center;
+}
+
+dt{
+    text-align: center;
+    color: white;
+    background-color: #292b28;
+    width: 200px;
+    border-radius: 40px;
+}
+dd{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+address{
+    text-align: center;
+    color: white;
+}
+
+
+abbr{
+    color: inherit;
+    font-size: 15px;
+}
+
+pre{
+    text-align: center;
+    color: white;
+}
+
+blockquote{
+    text-align: center;
+    color: white;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+a{
+    color:inherit ;
+
+} 
+
+
+.cabecalho{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-item:hover {
+    color: rgb(255, 230, 0);
+}
+
+.link1{
+    padding: 12px;
+    content: '\1F517';
+
+}
+
+.link2{
+    padding: 10px;
+}
+
+
+.imagens{
+    text-align: center;    
+    padding: 20px;
+}
+
+.imagens2{
+    text-align: center;    
+    padding: 20px;
+}
+
+.inputs{
+    text-align: center;
+    padding: 10px;
+}
+.input1{
+    padding: 10px;
+}
+.input2{
+    padding: 10px;
+}
+.input3{
+    padding: 10px;
+}
+.input4{
+    padding: 10px;
+}
+.ol{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.hierarquia{
+    width: 800px;
+}
+.capitulo{
+    width: 800px;   
+}
+.cor{
+    width: 800px;
+}
+.picture{
+    text-align: center;
+    padding: 10px;
+}
+
+.audio{
+    text-align: center;
+    padding: 10px;
+}
+
+.video_interno{
+    text-align: center;
+    padding: 10px;
+}
+
+.youtube{
+    text-align: center;
+    padding: 10px;
+}
+
+.vimeo{
+    text-align: center;
+    padding: 10px;
+}
+
+.carrousel{
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    max-width: 1500px;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain ;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+    background-color: #00000069;
+    border-radius: 15px;
+}
+
+.card{
+    width: 130px;
+    height: auto;
+}
+
+.titulo_imagens{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_index{
+    background-color: #63655A;
+    width: 500px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.titulo_index:hover{
+    opacity: 80%;
+}
+
+.titulo_links{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_listas{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_formatacoes{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_negrito{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.titulo_midia{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.titulo_cores{
+    background-color: #000000;
+    width: 500px;
+    padding-bottom: 10px; 
+}
+
+.tente{
+    width: 500px;
+}
+
+.button_contato{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.6rem;
+    background-color:white;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: #020303;
+}
+
+.button_contato:hover {
+    background-color: rgb(217, 255, 0);
+}
+
+.nav_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    height: auto;
+    width: auto;
+
+    padding: 0 2.4rem;
+}
+
+.nav1_text:hover{
+    opacity: 50%;
+}
+
+.nav_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    height: auto;
+    max-width: 1500px;
+
+    padding: 3rem;
+}
+
+.foto_index{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: #63655A;
+    height: 200px;
+
+    padding: 0 2.4rem;
+}
+
+.time_do_povo{
+    color: #ffffff;
+}
+
+.ceara_index_2:hover{
+    opacity: 80%;
+}
+
+
+.button_contato:hover{
+    outline: dotted rgb(255, 255, 255);
+}
+
+.mouse{
+    color: yellow
+}
+
+.mouse > p {
+    display: none;
+    color: yellow;
+}
+
+.mouse:hover > p{
+    display: block;
+    color: #fffb02;
+}
+
+.rep_github:active{
+    color: yellow;
+}
+
+.rep_github::after{
+        content: '\1F517';
+}
+
+.github:active{
+    color: yellow;
+}
+
+.rep_github::before{
+    content:'  ➪';
+}
+
+.github::after{
+    content:'\1F517';
+}
+
+.github::before{
+    content:'  ➪ ';
+}
+
+.rep_github:hover{
+    text-decoration: underline;
+}
+
+.github:hover{
+    text-decoration: underline;
+}
+
+.nav_3{
+    display: block;
+    text-align: center;
+
+    justify-content: space-between;
+
+    height: 220px;
+    max-width: 1200px;
+
+    padding: 5px;
+}
+
+.nav_4{
+    display: block;
+    text-align: center;
+
+    justify-content: space-between;
+
+    height: 150px;
+    max-width: 1200px;
+
+    padding: 5px;
+}
+
+.titulos{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-between;
+    margin-left: auto;
+    max-width: 1500px;
+
+}
+
+.imagem_nordestao{
+  background-image: url(../imagens/nordeste.png);  
+  height:150px;
+  width:150px;
+  margin: auto;
+  background-size:100% auto; 
+}
+
+.imagem_vovodeouro{
+    background-image: url(../imagens/vovo-de-ouro.png);  
+    min-height: 120px;
+    min-width: 200px;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_vovodeouro:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_omaisquerido{
+    background-image: url(../imagens/omaisquerido.png);  
+    min-height: 120px;
+    min-width: 200px;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_omaisquerido:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_campeaodapopularidade{
+    background-image: url(../imagens/campeaodapopularidade.png);  
+    min-height: 120px;
+    min-width: 200px;
+    margin: auto;
+    background-size:100% 100%; 
+  }
+
+  .imagem_campeaodapopularidade:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_timedopovo{
+    background-image: url(../imagens/timedopovo.png);  
+    min-height: 120px;
+    min-width: 200px;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_timedopovo:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_consuladoalvinegro{
+    background-image: url(../imagens/consuladoalvinegro.png);  
+    min-height: 120px;
+    min-width: 200px;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_consuladoalvinegro:hover .texto{
+    opacity:1;
+   }
+
+.texto{
+    padding:20px;
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0,0,0,.7);
+  }
+
+.imagem_nordestao:hover .texto{
+    opacity:1;
+   }
+
+.imagem_cearense{
+    background-image: url(../imagens/cearense.png);  
+      height:150px;
+      width:150px;
+      margin: auto;
+      background-size:100% auto; 
+    }
+    
+.texto{
+        padding:20px;
+        font-family:Arial;
+        text-align:center;
+        color:white;
+        opacity:0;
+        transition: opacity .2s linear;
+        background-color:rgba(0,0,0,.7);
+      }
+    
+.imagem_cearense:hover .texto{
+        opacity:1;
+       }
+
+.imagem_asabranca{
+        background-image: url(../imagens/asabranca.png);  
+          height:150px;
+          width:150px;
+          margin: auto;
+          background-size:100% auto; 
+        }
+        
+.texto{
+            padding:20px;
+            font-family:Arial;
+            text-align:center;
+            color:white;
+            opacity:0;
+            transition: opacity .2s linear;
+            background-color:rgba(0,0,0,.7);
+          }
+        
+ .imagem_asabranca:hover .texto{
+            opacity:1;
+           }      
+
+ .imagem_norte{
+        background-image: url(../imagens/norte-nordeste.png);  
+          height:150px;
+          width:150px;
+          margin: auto;
+          background-size:100% auto; 
+        }
+        
+.texto{
+            padding:20px;
+            font-family:Arial;
+            text-align:center;
+            color:white;
+            opacity:0;
+            transition: opacity .2s linear;
+            background-color:rgba(0,0,0,.7);
+          }
+        
+.imagem_norte:hover .texto{
+            opacity:1;
+           }    
+
+.titulos_text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rodape{
+    display: block;
+    text-align: center;
+
+    justify-content: space-between;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 20px;
+}
+
+.rodape-imagem:hover{
+    opacity:50%;
+}
