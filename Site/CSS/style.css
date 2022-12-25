@@ -18,6 +18,8 @@
 
 body{
     margin: 10px;
+    height: 100vh;
+    width: 100vw;
 
     align-items: center;
     align-content: center;
@@ -132,7 +134,6 @@ a{
 
 } 
 
-
 .cabecalho{
     display : flex;
     flex-direction: row;
@@ -229,9 +230,12 @@ a{
     align-items: center;
     grid-auto-flow: column;
     scroll-behavior: auto;
-    max-width: 1500px;
+
+    max-width: 1550px;
+    height: 60px;
     gap: 1.2rem;
     overflow-y: auto;
+
     overscroll-behavior-x: contain ;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
@@ -619,3 +623,64 @@ a{
 .rodape-imagem:hover{
     opacity:50%;
 }
+
+
+.search-box{
+    padding: 0;
+    background: #999b8fc9 ;
+    border-radius: 100em;
+
+    width: auto;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+
+    font-size: 18px;
+    line-height: 10px;
+
+    width: 0;
+    height: auto;
+    transition: 0.5s;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 50%;
+
+    background: #999b8fc9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s;
+
+}
+
+.search-box:hover > .search-txt{
+    width: 200px;
+
+}
+
+.search-box:hover > .search-btn {
+    background-color: #fffb02;
+}
+
