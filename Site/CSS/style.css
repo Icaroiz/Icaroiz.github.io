@@ -350,7 +350,7 @@ a{
     height: auto;
     max-width: 1500px;
 
-    padding: 3rem;
+    padding: 0 2.4rem;
 }
 
 .foto_index{
@@ -432,7 +432,7 @@ a{
     height: 220px;
     max-width: 1200px;
 
-    padding: 5px;
+    padding: 0 2.4rem;
 }
 
 .nav_4{
@@ -444,7 +444,7 @@ a{
     height: 150px;
     max-width: 1200px;
 
-    padding: 5px;
+    padding: 0 2.4rem;
 }
 
 .titulos{
@@ -677,7 +677,6 @@ a{
 
 .search-box:hover > .search-txt{
     width: 200px;
-
 }
 
 .search-box:hover > .search-btn {
