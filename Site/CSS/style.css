@@ -24,7 +24,7 @@ body{
     align-items: center;
     align-content: center;
 
-    background-image: linear-gradient(rgb(172, 172, 172), rgb(148, 148, 42));
+    background-color: #0E1428;
 }
 
 main{
@@ -240,7 +240,7 @@ a{
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
 
-    background-color: #00000069;
+    background-color: #030625;
     border-radius: 15px;
 }
 
@@ -312,19 +312,19 @@ a{
 
 .button_contato{
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+
     padding: 1rem 1.6rem;
-    background-color:white;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    background-color:rgb(251, 255, 6);
+    box-shadow: 100px white;
     border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-size: 15px;
-    color: #020303;
+
+    font-size: 18px;
+    color: #000000;
 }
 
 .button_contato:hover {
-    background-color: rgb(217, 255, 0);
+    background-color: rgba(217, 255, 0, 0.493);
 }
 
 .nav_1{
@@ -370,11 +370,6 @@ a{
 
 .ceara_index_2:hover{
     opacity: 80%;
-}
-
-
-.button_contato:hover{
-    outline: dotted rgb(255, 255, 255);
 }
 
 .mouse{
@@ -584,7 +579,7 @@ a{
            }      
 
  .imagem_norte{
-        background-image: url(../imagens/norte-nordeste.png);  
+        background-image: url(../imagens/norte-nordeste.svg);  
           height:150px;
           width:150px;
           margin: auto;

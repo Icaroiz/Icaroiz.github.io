@@ -18,13 +18,13 @@ body{
     align-items: center;
     align-content: center;
 
-    background-image: linear-gradient(rgb(172, 172, 172), rgb(148, 148, 42));
+    background-color: #0E1428;
 }
 
 
 h1{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     background-color: #999b8fc9;
     width: 100px;
     height: auto;
@@ -65,9 +65,7 @@ a {
 } 
 
 abbr{
-    color: inherit;
     font-size: 15px;
-
 }
 
 label{
@@ -88,7 +86,7 @@ label{
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
 
-    background-color: #00000069;
+    background-color: #030625;
     border-radius: 15px;
 }
 
