@@ -18,7 +18,7 @@ body{
     align-items: center;
     align-content: center;
 
-    background-color: #0E1428;
+    background-color: #190e44;
 }
 
 
@@ -78,15 +78,18 @@ label{
     align-items: center;
     grid-auto-flow: column;
     scroll-behavior: auto;
-    max-width: 1500px;
-    height: 60px;
+
+
+    width: 1800px;
+    height: 75px;
     gap: 1.2rem;
     overflow-y: auto;
+
     overscroll-behavior-x: contain ;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
 
-    background-color: #030625;
+    background-color: #000000;
     border-radius: 15px;
 }
 
@@ -308,8 +311,8 @@ label{
 }
 
 .search-btn{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 4px;
     border-radius: 50%;
 

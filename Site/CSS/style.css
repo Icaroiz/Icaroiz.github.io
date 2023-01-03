@@ -19,12 +19,12 @@
 body{
     margin: 10px;
     height: 100vh;
-    width: 100vw;
+    width: auto;
 
     align-items: center;
     align-content: center;
 
-    background-color: #0E1428;
+    background-color: #000000;
 }
 
 main{
@@ -137,9 +137,11 @@ a{
 .cabecalho{
     display : flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+
+    justify-items: space-between;
+
+    padding: 8px;
+    margin: 0 auto;
 }
 
 .cabecalho-item:hover {
@@ -231,8 +233,9 @@ a{
     grid-auto-flow: column;
     scroll-behavior: auto;
 
-    max-width: 1550px;
-    height: 60px;
+
+    width: auto;
+    height: 65px;
     gap: 1.2rem;
     overflow-y: auto;
 
@@ -240,12 +243,25 @@ a{
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
 
-    background-color: #030625;
+    background-color: #000000;
     border-radius: 15px;
 }
 
+.card_img{
+
+    margin-right: 5em;
+
+}
+
 .card{
-    width: 130px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+    width: 120px;
     height: auto;
 }
 
@@ -655,8 +671,8 @@ a{
 }
 
 .search-btn{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding: 4px;
     border-radius: 50%;
 
@@ -678,3 +694,18 @@ a{
     background-color: #fffb02;
 }
 
+.layout_1{
+    background-image: url(../imagens/fundos/fundo1.jpg);
+
+    height: 1000px;
+    width: 2000px;
+
+}
+
+.layout_2{
+    background-color: #000000;
+    
+    height: 37.5em;
+    width: auto;
+
+}
