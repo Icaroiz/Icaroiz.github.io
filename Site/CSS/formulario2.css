@@ -1,4 +1,11 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@media screen and (max-width: 500px){
+    /* MAX WIDTH = TELA MENOR QUE ALGUMA RESOLUÇÃO */    
+        p{
+        color: yellow;
+     }
+    }
 
 *{
     text-align: center;
@@ -13,23 +20,21 @@
 body{
     margin: 10px;
     height: 100vh;
-    width: 100vw;
+    width: auto;
 
     align-items: center;
     align-content: center;
 
-    background-color: #190e44;
+    background-color: #000000;
 }
-
 
 h1{
     text-align: center;
-    color: #ffffff;
-    background-color: #999b8fc9;
-    width: 100px;
+    color: rgb(255, 255, 255);
+
+    width: 150px;
     height: auto;
     padding: auto;
-    border-radius: 10px;
 }
 
 h2{
@@ -61,16 +66,17 @@ h4{
 }
 
 a {
-    color:inherit ; 
-} 
-
-abbr{
-    font-size: 15px;
+    color: white;
+    font-size: 20px;
 }
 
 label{
     color: #ffffff;
     font-size: 18px;
+}
+
+abbr{
+    font-size: 20px;
 }
 
 .carrousel{
@@ -80,8 +86,8 @@ label{
     scroll-behavior: auto;
 
 
-    width: 1800px;
-    height: 75px;
+    width: auto;
+    height: auto;
     gap: 1.2rem;
     overflow-y: auto;
 
@@ -90,11 +96,68 @@ label{
     scrollbar-width: none;
 
     background-color: #000000;
-    border-radius: 15px;
+}
+
+.card_img{
+    margin-right: 6em;
+}
+
+.card_index{
+    margin-right: 2.5em;
+
+}
+
+.card_imagens{
+    margin-right: 2.5em;
+
+}
+
+.card_links{
+    margin-right: 2.5em;
+
+}
+
+.card_listas{
+    margin-right: 2.5em;
+
+}
+
+.card_hierarquia{
+    margin-right: 4em;
+
+}
+
+.card_negrito{
+    margin-right: 2.5em;
+
+}
+
+.card_midia{
+    margin-right: 2.5em;
+
+}
+
+.card_formulario{
+    margin-right: 2.5em;
+
+}
+
+.card_exit{
+    margin-left: 2em;
+}
+
+.card_final{
+    width: 0%;
 }
 
 .card{
-    width: 130px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    width: auto;
     height: auto;
 }
 
@@ -274,11 +337,9 @@ label{
     color: white;
 }
 
-
-
 .search-box{
     padding: 0;
-    background: #999b8fc9 ;
+    background: yellow ;
     border-radius: 100em;
 
     width: auto;
@@ -295,7 +356,7 @@ label{
     outline: none;
 
     padding: 0;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-family: 'Secular One', sans-serif;
 
     font-size: 18px;
@@ -307,16 +368,16 @@ label{
 }
 
 ::-webkit-input-placeholder{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .search-btn{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     padding: 4px;
     border-radius: 50%;
 
-    background: #999b8fc9;
+    background: rgba(150, 150, 68, 0.863);
 
     display: flex;
     justify-content: center;
@@ -328,16 +389,11 @@ label{
 
 .search-box:hover > .search-txt{
     width: 200px;
-
 }
 
 .search-box:hover > .search-btn {
-    background-color: #fffb02;
+    background: rgba(150, 150, 68, 0.863);
 }
-
-
-
-
 
 
 
