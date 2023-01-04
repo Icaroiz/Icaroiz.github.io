@@ -87,9 +87,7 @@ abbr{
 
 
     width: auto;
-    height: auto;
-    gap: 1.2rem;
-    overflow-y: auto;
+    height: 100px;
 
     overscroll-behavior-x: contain ;
     scroll-snap-type: x mandatory;
@@ -100,50 +98,271 @@ abbr{
 
 .card_img{
     margin-right: 6em;
+    margin-bottom: 2.7em;
 }
 
 .card_index{
-    margin-right: 2.5em;
+    margin-right: 2.0em;
 
 }
 
-.card_imagens{
-    margin-right: 2.5em;
+.card_index a{
+    color: white;
+    text-decoration: none;
 
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+
+.card_index a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_index  a:hover::after{
+    width: 100%;
+}
+
+
+.card_imagens{
+    margin-right: 2.0em;
+
+}
+
+.card_imagens a {
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_imagens a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_imagens a:hover::after{
+    width: 100%;
 }
 
 .card_links{
-    margin-right: 2.5em;
+    margin-right: 2.0em;
 
 }
+
+.card_links a {
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_links a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_links a:hover::after{
+    width: 100%;
+}
+
 
 .card_listas{
-    margin-right: 2.5em;
+    margin-right: 2.0em;
 
 }
 
+.card_listas a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_listas a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_listas a:hover::after{
+    width: 100%;
+}
+
+
 .card_hierarquia{
-    margin-right: 4em;
+    margin-top: 4em;
+
+}
+
+.card_hierarquia a {
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_hierarquia a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_hierarquia a:hover::after{
+    width: 100%;
 
 }
 
 .card_negrito{
-    margin-right: 2.5em;
+    margin-right: 2.0em;
 
 }
+
+.card_negrito a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_negrito a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_negrito a:hover::after{
+    width: 100%;
+
+
+}
+
 
 .card_midia{
-    margin-right: 2.5em;
+    margin-right: 2.0em;
 
 }
 
+.card_midia a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_midia a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_midia a:hover::after{
+    width: 100%;
+
+}
+
+
 .card_formulario{
-    margin-right: 2.5em;
+
+    margin-top: 3.5em;
+
+}
+
+.card_formulario a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_formulario a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_formulario a:hover::after{
+    width: 100%;
 
 }
 
 .card_exit{
     margin-left: 2em;
+    margin-bottom: 3.0em;
+
 }
 
 .card_final{

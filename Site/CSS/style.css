@@ -250,10 +250,8 @@ abbr{
     scroll-behavior: auto;
 
 
-    width: 2000px;
-    height: 100px;
-    gap: 1.2rem;
-    overflow-y: auto;
+    width: auto;
+    height: 90px;
 
     overscroll-behavior-x: contain ;
     scroll-snap-type: x mandatory;
@@ -264,6 +262,7 @@ abbr{
 
 .card_img{
     margin-right: 6em;
+    margin-bottom: 2.7em;
 }
 
 .card_index{
@@ -361,8 +360,58 @@ abbr{
 
 }
 
+.card_listas a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_listas a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_listas a:hover::after{
+    width: 150%;
+}
+
+
 .card_hierarquia{
     margin-right: 3.5em;
+
+}
+
+.card_hierarquia a {
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_hierarquia a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_hierarquia a:hover::after{
+    width: 150%;
 
 }
 
@@ -371,18 +420,98 @@ abbr{
 
 }
 
+.card_negrito a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_negrito a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_negrito a:hover::after{
+    width: 150%;
+
+
+}
+
+
 .card_midia{
     margin-right: 2.0em;
 
 }
+
+.card_midia a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_midia a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_midia a:hover::after{
+    width: 150%;
+
+}
+
 
 .card_formulario{
     margin-right: 2.0em;
 
 }
 
+.card_formulario a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_formulario a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_formulario a:hover::after{
+    width: 150%;
+
+}
+
 .card_exit{
     margin-left: 2em;
+    margin-bottom: 3.0em;
+
 }
 
 .card_final{
@@ -782,6 +911,8 @@ abbr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 3em;
 }
 
 .search-txt{
