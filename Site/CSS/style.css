@@ -123,10 +123,6 @@ ul{
     gap: 3rem;
 }
 
-a{
-    color: inherit;
-}
-
 abbr{
     font-size: 20px;
 }
@@ -142,9 +138,31 @@ abbr{
 
 }
 
-.cabecalho-item:hover{
-    color: #fffb02;
+.cabecalho-item-index a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
 }
+
+.cabecalho-item-indexa::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s;
+}
+
+.cabecalho-item-index a:hover ::after{
+    width: 100%;
+}
+
+
 
 .link1{
     padding: 12px;
@@ -253,15 +271,90 @@ abbr{
 
 }
 
+.card_index a{
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+
+.card_index a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_index  a:hover::after{
+    width: 150%;
+}
+
+
 .card_imagens{
     margin-right: 2.0em;
 
+}
+
+.card_imagens a {
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_imagens a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_imagens a:hover::after{
+    width: 150%;
 }
 
 .card_links{
     margin-right: 2.0em;
 
 }
+
+.card_links a {
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+.card_links a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card_links a:hover::after{
+    width: 150%;
+}
+
 
 .card_listas{
     margin-right: 2.0em;
