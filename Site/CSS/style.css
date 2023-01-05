@@ -789,7 +789,7 @@ abbr{
 
    .imagem_consuladoalvinegro{
     background-image: url(../imagens/consuladoalvinegro.png);  
-    min-height: 120px;
+    min-height: 127px;
     min-width: 200px;
     margin: auto;
     background-size:100% auto; 
@@ -900,8 +900,15 @@ abbr{
 
 }
 
+.rodape-imagem {
+    width: 35px;
+    height: 35px;
+}
+
 .rodape-imagem:hover{
     opacity:50%;
+
+
 }
 
 .Informacoes{
@@ -912,13 +919,15 @@ abbr{
     height: auto;
     width: auto;
 
+    background-color: #63655a1c;
+
 }
 .Informacoes li{
     text-align: left;
 
     padding: 10px;
 
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
@@ -996,4 +1005,17 @@ abbr{
     height: 37.5em;
     width: auto;
 
+}
+
+.Fim{
+    width: auto;
+    height: 50px;
+
+
+}
+
+.Fim p{
+    color: #63655A;
+
+    font-size: 14px;
 }
