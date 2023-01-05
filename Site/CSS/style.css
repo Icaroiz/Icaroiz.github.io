@@ -72,7 +72,6 @@ h4{
 }
 
 p{  
-    text-align: center;
     color: rgb(255, 255, 255);
     padding: 10px;
 }
@@ -716,8 +715,8 @@ abbr{
 
     justify-content: space-between;
 
-    height: 150px;
-    max-width: 1200px;
+    height: 130px;
+    max-width: 130em;
 
     padding: 0 2.4rem;
 }
@@ -887,16 +886,39 @@ abbr{
 }
 
 .rodape{
-    display: block;
-    text-align: center;
+    border-top: 0.4px solid #fff2e73f;
 
-    justify-content: space-between;
-    border-top: 0.4px solid #FFF2E7;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+    padding: 8px;
+
+    margin: 0%;
+
+    height: 100px;
+    width: auto;
+
 }
 
 .rodape-imagem:hover{
     opacity:50%;
+}
+
+.Informacoes{
+    border-top: 0.4px solid #fff2e73f ;
+
+    text-align: left;
+
+    height: auto;
+    width: auto;
+
+}
+.Informacoes li{
+    text-align: left;
+
+    padding: 10px;
+
+    font-size: 20px;
 }
 
 
