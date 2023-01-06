@@ -13,6 +13,8 @@
     margin :auto;
     text-decoration: none; 
 
+    box-sizing: border-box;
+
     font-size: 15px;
     font-family: 'Space Mono', monospace;
 }
@@ -896,8 +898,6 @@ a{
 }
 
 .rodape{
-    border-top: 0.4px solid #fff2e73f;
-
     display: flex;
     flex-direction: row;
 
@@ -905,20 +905,18 @@ a{
 
     margin: 0%;
 
-    height: 100px;
+    height: 80px;
     width: auto;
 
 }
 
 .rodape-imagem {
-    width: 35px;
+    width: 40px;
     height: 35px;
 }
 
 .rodape-imagem:hover{
     opacity:50%;
-
-
 }
 
 .Informacoes{
@@ -1010,11 +1008,42 @@ a{
 }
 
 .layout_2{
-    background-color: #000000;
-    
-    height: 37.5em;
-    width: auto;
+    height: 44em;
+    width: 100%;
+    padding: 10px 0;
 
+    background-image: linear-gradient(to left, #F0F7F4, #000000,yellow , #323031);
+    background-size: 500% 100%;
+    animation: degrade-animado 10s infinite alternate;
+}
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+.link_ench{
+    height: 60vh;
+}
+
+.imagens_ench{
+    height: 10vh;
+}
+
+.lista_ench{
+    height: 8vh;
+}
+
+.negrito_ench{
+    height: 1vh;
+}
+
+.formulario_ench{
+    height: 5vh;
 }
 
 .Fim{
