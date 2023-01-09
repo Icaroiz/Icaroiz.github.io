@@ -602,7 +602,6 @@ a{
     padding: 0.90em;
 
     background-color:rgb(251, 255, 6);
-    box-shadow: 100px white;
     border-radius: 20px;
 
     font-size: 20px;
@@ -610,12 +609,23 @@ a{
     color: #000000;
 }
 
-.button_contato:hover {
-    background-color: rgba(217, 255, 0, 0.493);
+.button_contato:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.icon_contato{
-    margin-right: 10px;
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.10);
+    }
+
 }
 
 .nav_1{
