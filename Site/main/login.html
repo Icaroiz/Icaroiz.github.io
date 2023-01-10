@@ -5,126 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style_login.css">
     <title>Login</title>
 </head>
-<style>
-
-    *{
-        text-align: center;
-        text-decoration: none;
-        box-sizing: border-box;
-    }
-
-    body{
-
-        margin: 10px;
-
-
-        font-family: Arial, Helvetica, sans-serif;
-       
-        background-color: rgba(2, 2, 2, 0.877);
-    }
-
-    form{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-
-        top: 50%;
-        bottom: 50%;
-        transform: translate(-0%,40%);
-    }
-
-    h1{
-        color: white;
-    }
-
-    .div_login{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        background-color: rgba(0, 0, 0, 0.7);
-        width: 310px;
-        height: 340px;
-        padding: 0.1px;  
-        
-        border-radius: 20px;
-    }
-
-    .input_email{
-        padding: 10px;
-        font-size: 15px;
-        border: none;
-        border-radius: 10px;
-        outline: none;
-    }
-
-    .input_senha{
-        padding: 10px;
-        font-size: 15px;
-        border: none;
-        border-radius: 10px;
-        outline: none;
-    }
-
-    .login-button{
-        background-color: yellow;
-        border: none;
-        font-size: 15px;
-        padding: 10px;
-        width: 210px;
-        border-radius: 10px;
-        color:black;
-    }
-
-    .login-button:hover{
-        background-color: deepskyblue;
-        cursor: pointer;
-    }
-
-    .button_registrar{
-        background-color: rgba(0, 0, 0, 0.7);
-        border: none;
-        font-size: 13px;
-        padding: 2px;
-        width: 140px;
-        border-radius: 10px;
-        color:rgb(255, 255, 255);
-    }
-
-    .button_registrar:hover{
-        text-decoration: underline;
-    }
-
-
-    .button_recuperar{
-        border: none;
-        font-size: 12px;
-        padding: 2px;
-        width: 150px;
-        border-radius: 10px;
-        color:rgb(255, 255, 255);
-    }
-
-    .button_recuperar[disabled]{
-        opacity: 0.7;
-    }
-
-</style>
 
 <body>
-    <form>
         <div class="div_login">
-            <h1>Login</h1>
-            <input type="email" placeholder="USUARIO" name= "email" id="email" class="input_email" onchange="validateFields()"/>
-            <br>
-            <input type="password" name="password" id="password" placeholder="SENHA" class="input_senha" onchange="validateFields()"/>
-            <br>
-            <button type= "button" class="login-button" name="login-button" id="login-button"   onclick="logar()">ENTRAR</button>   
-
-</form>
+            <div class="text">
+                <h1>Login</h1>
+                <input type="email" placeholder="USUARIO" name= "email" id="email" class="input_email" onchange="validateFields()"/>
+                <input type="password" name="password" id="password" placeholder="SENHA" class="input_senha" onchange="validateFields()"/>
+                <button type= "button" class="login-button" name="login-button" id="login-button"   onclick="logar()">ENTRAR</button>   
+            </div>
+        </div>
 
             <script>
 
@@ -171,5 +64,7 @@
                 } 
 
             </script>
-</body>
+
+    </body>
+
 </html>
