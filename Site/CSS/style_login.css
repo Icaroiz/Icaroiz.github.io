@@ -18,12 +18,13 @@
 
     body{
 
-        width: 100%;
+        width: auto;
         min-height: 100vh;
         background-image: url(../imagens/fundos/ceara_wallpaper_02.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
 
         display: flex;
         justify-content: center;
