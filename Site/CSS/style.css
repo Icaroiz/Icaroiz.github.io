@@ -41,7 +41,6 @@ h1{
     width: 100px;
     height: auto;
     padding: auto;
-
 }
 
 h2{
@@ -74,7 +73,6 @@ h4{
 p{  
     color: rgb(255, 255, 255);
     padding: 10px;
-
 }
 
 li{
@@ -144,7 +142,9 @@ section{
 
 section:nth-of-type(1){
     color: white;
-    width: 46.8em;
+    width: 47em;
+    height: 100em;
+
     font-size: 50px;
     height: 2em;
 
@@ -181,7 +181,87 @@ section:nth-of-type(6){
 
 }
 
-::-webkit-scrollbar
+.socios{
+   font-size: 50px; 
+   color: white;
+
+   margin-top: 10px;
+
+   background-color: #63655a2f;
+   border-radius: 0px 12px 0px 12px; 
+}
+
+
+.layout_3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 25em;
+
+}
+
+.cards{
+    width: auto;
+    height: 0px;
+    margin: 50px auto; 
+
+    font-size: 50px;
+
+    border-radius: 12px;
+}
+
+.face{
+    margin-top: 150px;
+
+    width: 200px;
+    height: 150px;
+
+    perspective: 700px;
+
+}
+
+.front, .back{
+    position: absolute;
+    width: 159%;
+    height: 124%;
+
+    padding: 5px;
+    border-radius: 10px;
+    transition: 700ms;
+}
+
+.front{
+    background-image: url(../imagens/../imagens/sócios/vovo-de-ouro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.back{
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.face:hover .front{
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+.face:hover .back{
+    transform:rotateY(0);
+    z-index: 1;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+}
 
 .brasileirao {
     color: white;
@@ -189,7 +269,6 @@ section:nth-of-type(6){
 
     margin-top: 10px;
 
-    background-color: #63655a2f;
     border-radius: 0px 12px 0px 12px ; 
 
 }
@@ -202,7 +281,6 @@ section:nth-of-type(6){
 
     background-color: #63655a2f;
     border-radius: 0px 12px 0px 12px ; 
-
 }
 
 .copado_nordeste{
@@ -214,9 +292,7 @@ section:nth-of-type(6){
 
     background-color: #63655a2f;
     border-radius: 0px 12px 0px 12px ; 
-
 }
-
 
 .cabecalho{
     display : flex;
@@ -835,7 +911,6 @@ section:nth-of-type(6){
     justify-content: space-between;
     margin-left: auto;
     max-width: 1500px;
-
 }
 
 .imagem_nordestao{
@@ -852,11 +927,11 @@ section:nth-of-type(6){
     min-width: 200px;
     margin: auto;
     background-size:100% auto; 
-  }
+}
 
   .imagem_vovodeouro:hover .texto{
     opacity:1;
-   }
+}
 
    .imagem_omaisquerido{
     background-image: url(../imagens/omaisquerido.png);  
@@ -864,11 +939,11 @@ section:nth-of-type(6){
     min-width: 200px;
     margin: auto;
     background-size:100% auto; 
-  }
+}
 
   .imagem_omaisquerido:hover .texto{
     opacity:1;
-   }
+}
 
    .imagem_campeaodapopularidade{
     background-image: url(../imagens/campeaodapopularidade.png);  
@@ -876,11 +951,11 @@ section:nth-of-type(6){
     min-width: 200px;
     margin: auto;
     background-size:100% 100%; 
-  }
+}
 
   .imagem_campeaodapopularidade:hover .texto{
     opacity:1;
-   }
+}
 
    .imagem_timedopovo{
     background-image: url(../imagens/timedopovo.png);  
@@ -888,11 +963,11 @@ section:nth-of-type(6){
     min-width: 200px;
     margin: auto;
     background-size:100% auto; 
-  }
+}
 
   .imagem_timedopovo:hover .texto{
     opacity:1;
-   }
+}
 
    .imagem_consuladoalvinegro{
     background-image: url(../imagens/consuladoalvinegro.png);  
@@ -900,11 +975,11 @@ section:nth-of-type(6){
     min-width: 200px;
     margin: auto;
     background-size:100% auto; 
-  }
+}
 
   .imagem_consuladoalvinegro:hover .texto{
     opacity:1;
-   }
+}
 
 .texto{
     padding:20px;
@@ -914,11 +989,11 @@ section:nth-of-type(6){
     opacity:0;
     transition: opacity .2s linear;
     background-color:rgba(0,0,0,.7);
-  }
+}
 
 .imagem_nordestao:hover .texto{
     opacity:1;
-   }
+}
 
 .imagem_cearense{
     background-image: url(../imagens/cearense.png);  
@@ -926,7 +1001,7 @@ section:nth-of-type(6){
       width:150px;
       margin: auto;
       background-size:100% auto; 
-    }
+}
     
 .texto{
         padding:20px;
@@ -936,11 +1011,11 @@ section:nth-of-type(6){
         opacity:0;
         transition: opacity .2s linear;
         background-color:rgba(0,0,0,.7);
-      }
+}
     
 .imagem_cearense:hover .texto{
         opacity:1;
-       }
+}
 
 .imagem_asabranca{
         background-image: url(../imagens/asabranca.png);  
@@ -948,7 +1023,7 @@ section:nth-of-type(6){
           width:150px;
           margin: auto;
           background-size:100% auto; 
-        }
+}
         
 .texto{
             padding:20px;
@@ -958,11 +1033,11 @@ section:nth-of-type(6){
             opacity:0;
             transition: opacity .2s linear;
             background-color:rgba(0,0,0,.7);
-          }
+}
         
  .imagem_asabranca:hover .texto{
             opacity:1;
-           }      
+}      
 
  .imagem_norte{
         background-image: url(../imagens/norte-nordeste.svg);  
@@ -970,7 +1045,7 @@ section:nth-of-type(6){
           width:150px;
           margin: auto;
           background-size:100% auto; 
-        }
+}
         
 .texto{
             padding:20px;
@@ -980,11 +1055,11 @@ section:nth-of-type(6){
             opacity:0;
             transition: opacity .2s linear;
             background-color:rgba(0,0,0,.7);
-          }
+}
         
 .imagem_norte:hover .texto{
             opacity:1;
-           }    
+}    
 
 .titulos_text{
     text-align: center;
@@ -1002,7 +1077,6 @@ section:nth-of-type(6){
 
     height: 80px;
     width: auto;
-
 }
 
 .rodape-imagem {
@@ -1019,11 +1093,10 @@ section:nth-of-type(6){
 
     text-align: left;
 
-    height: auto;
+    height: 265px;
     width: auto;
 
     background-color: #63655a1c;
-
 }
 .Informacoes li{
     text-align: left;
@@ -1083,7 +1156,6 @@ section:nth-of-type(6){
     align-items: center;
 
     transition: 0.5s;
-
 }
 
 .search-box:hover > .search-txt{
@@ -1100,10 +1172,8 @@ section:nth-of-type(6){
     background-size:cover;
     background-repeat: no-repeat;
     
-    
     height: 1000px;
     max-width: 2000px;
-
 }
 
 .layout_2{
@@ -1116,6 +1186,8 @@ section:nth-of-type(6){
     border-radius: 15px;
     animation: degrade-animado 5s infinite alternate;
 }
+
+
 
 @keyframes degrade-animado {
     0%{
@@ -1148,13 +1220,10 @@ section:nth-of-type(6){
 
 .Fim{
     width: auto;
-    height: 50px;
-
-
+    height: 20px;
 }
 
 .Fim p{
     color: #63655A;
-
     font-size: 14px;
 }
