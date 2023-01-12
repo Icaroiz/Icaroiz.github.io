@@ -1012,9 +1012,10 @@ a{
     background-color: #000000;
     background-size:cover;
     background-repeat: no-repeat;
-
+    
+    
     height: 1000px;
-    width: 2000px;
+    max-width: 2000px;
 
 }
 
@@ -1023,9 +1024,10 @@ a{
     width: 100%;
     padding: 10px 0;
 
-    background-image: linear-gradient(to left, #F0F7F4, #000000,yellow , #323031);
+    background-image: linear-gradient(to left, #F0F7F4, #000000, #323031);
     background-size: 500% 100%;
-    animation: degrade-animado 10s infinite alternate;
+    border-radius: 12px;
+    animation: degrade-animado 15s infinite alternate;
 }
 
 @keyframes degrade-animado {
