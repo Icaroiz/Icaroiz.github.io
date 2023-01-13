@@ -1,28 +1,22 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://css.gg/arrow-right-o.css');
-@media screen and (max-width: 500px){
-/* MAX WIDTH = TELA MENOR QUE ALGUMA RESOLUÇÃO */    
-    p{
-    color: yellow;
- }
-}
 
 *{
-    text-align: center;
+    padding: 0;
     margin :auto;
+
+    text-align: center;
     text-decoration: none; 
 
     font-family: 'Space Mono', monospace;
 }
 
-body{
-    margin: 10px;
-    height: 100vh;
-    width: auto;
+html, body{
+    margin: 0;
 
-    align-items: center;
-    align-content: center;
+    height: 100vh;
+    max-width: auto;
 
     background-color: #000000;
 }
@@ -38,8 +32,8 @@ h1{
     text-align: center;
     color: rgb(255, 255, 255);
 
-    width: 100px;
-    height: auto;
+    width: 110px;
+    height: 4em;
     padding: auto;
 }
 
@@ -130,7 +124,7 @@ a{
 }
 
 section{
-    width: 100%;
+    width: 150em;
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,9 +190,8 @@ section:nth-of-type(6){
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 
-    height: 25em;
+    height: 29em;
 
 }
 
@@ -227,7 +220,7 @@ section:nth-of-type(6){
     width: 159%;
     height: 124%;
 
-    padding: 5px;
+    padding: 1px;
     border-radius: 10px;
     transition: 700ms;
 }
@@ -343,12 +336,14 @@ section:nth-of-type(6){
 }
 
 ::-webkit-scrollbar{
-    width: 12px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-thumb{
     background-color: yellow;
+    border-radius: 10px;
 }
+
 
 .brasileirao {
    text-align: center;
@@ -698,7 +693,6 @@ section:nth-of-type(6){
 
 .card_negrito a:hover::after{
     width: 150%;
-
 
 }
 
@@ -1309,7 +1303,6 @@ section:nth-of-type(6){
 
 .Fim{
     width: auto;
-    height: 20px;
 }
 
 .Fim p{
