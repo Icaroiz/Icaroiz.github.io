@@ -1,6 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://css.gg/arrow-right-o.css');
+@media (min-width: 1000px) {
+    
+    *{
+        width: auto;
+    }
+}
+
 
 *{
     padding: 0;
@@ -70,7 +77,6 @@ p{
 }
 
 li{
-    font-size: 18px;
     color: white;
     text-align: center;
 }
@@ -1176,9 +1182,10 @@ section:nth-of-type(6){
 
     text-align: left;
 
-    height: 265px;
-    width: auto;
+    height: 420px;
+    width: 2400px;
 
+    border-radius: 0px 12px 0px 12px ; 
     background-color: #63655a1c;
 }
 .Informacoes li{
@@ -1302,7 +1309,8 @@ section:nth-of-type(6){
 }
 
 .Fim{
-    width: auto;
+    padding: 0;
+    margin :auto;
 }
 
 .Fim p{
