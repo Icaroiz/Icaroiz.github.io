@@ -135,7 +135,7 @@ a{
 }
 
 section{
-    width: 150em;
+    width: auto;
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
@@ -360,7 +360,6 @@ section:nth-of-type(6){
 }
 
 .campeonato_cearense{
-    text-align: center;
     color: white;
     font-size: 50px;
 
@@ -371,7 +370,6 @@ section:nth-of-type(6){
 }
 
 .copado_nordeste{
-    text-align: center;
     color: white;
     font-size: 50px;
 
