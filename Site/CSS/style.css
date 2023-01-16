@@ -1331,10 +1331,11 @@ section:nth-of-type(6){
 .formulario{
     text-align: center;
 
+    color: white;
     width: 800px;
     height: auto;
 
-    background-color: #8b8b8a79;
+    background-color: #63655a;
 
     padding: 10px;
 
@@ -1371,6 +1372,8 @@ section:nth-of-type(6){
 .nome{
     border-radius: 10px;
     width: 300px;
+
+    border: none;
 }
 
 .campo_email{
@@ -1381,7 +1384,20 @@ section:nth-of-type(6){
 
 .email{
     border-radius: 10px;
-    width: 295px;
+    width: 250px;
+
+    border: none;
+}
+
+.campo_telefone{
+    margin-top: 10px;
+}
+
+.telefone{
+    border-radius: 10px;
+    width: 180px;
+
+    border: none;
 }
 
 .genero{
@@ -1398,6 +1414,7 @@ section:nth-of-type(6){
     margin-bottom: 10px;
 
     padding: 10px; 
+    border: none;
 }
 
 .personagem{
