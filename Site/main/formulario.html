@@ -67,26 +67,24 @@
         </div>
     </header>
     
-    <br><br>
-    <div class ="titulo">
-        <h3 class="titulo_formulario">Cadastro de Usuarios</h3>
-    </div>             <!-- Início do formulário -->
-            <form>
+    <br><br>            <!-- Início do formulário -->
+            <form class="formulario">
                 <fieldset class="grupo" > 
+
+                    <div class ="titulo">
+                        <h3 class="titulo_formulario">Cadastro de Usuarios</h3>
+                    </div> 
             <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                     <div class="campo_nome">
                         <label for="nome">Nome: </label>
                         <input class="nome" type="text",name="nome" id="nome" required>
                     </div>
             <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
-                    <div class="campo_sobrenome">
-                        <label for="sobrenome">Sobrenome:</label>
-                        <input type="text" class="sobrenome" name="sobrenome" id="sobrenome" required>
-                    </div>
-                    <div class="campo">
+                    <div class="campo_email">
                         <label for="email">Email:</label>
                     <input type="email" class="email" name="email" id="email" required>
-                </div>
+                    </div>
+
             </fieldset>
     
             <!-- Campo de genero web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
@@ -107,9 +105,7 @@
                         <span class="checkmark"></span>
                    </label>
         </fieldset>
-           
-            <br>
-            <!-- Campo de região com 3 opções para escolha (select option) e css de classe "campo" -->
+                       <!-- Campo de região com 3 opções para escolha (select option) e css de classe "campo" -->
                 <div class="uf">
                     <label   for="senioridade">UF</label>
                     <select id="senioridade" class="senioridade">
@@ -119,7 +115,6 @@
                         <option>PB</option>
                     </select>
                 </div>
-                <br>
             <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
                 <fieldset class="personagem">
                     <div id="checkbox">
@@ -139,13 +134,10 @@
                         <label for="tecnologia6">Lima </label>
                     </div>
                 </fieldset>
-    
-                <br>
-            
             <!-- Caixa de texto -->
-            <fieldset class="experiencia">
+            <fieldset class="campo_experiencia">
                 <div class="campo">
-                    <label id="label">Conte um pouco da sua experiencia com o time Ceará:</label>
+                    <label id="label">Conte-nos um pouco da sua experiencia com o time Ceará:</label>
                     <br>
                     <textarea class="experiencia" name="experiencia" id="experiencia" rows="6" border: 10px solid #888;></textarea>
                 </div>

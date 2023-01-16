@@ -8,6 +8,7 @@
     }
 }
 
+ /* CSS DO SITE */
 
 *{
     padding: 0;
@@ -1323,4 +1324,130 @@ section:nth-of-type(6){
 .Fim p{
     color: #63655A;
     font-size: 14px;
+}
+
+ /* CSS DO FORMULARIO */
+
+.formulario{
+    text-align: center;
+
+    width: 800px;
+    height: auto;
+
+    background-color: #8b8b8a79;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 20px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo_formulario{
+    height: 25px;
+
+    margin-top: 10px;
+    margin-bottom: 14px;
+
+    width: 500px;
+    border: none;
+    color: #000000;
+}
+
+.grupo{
+    border: none;
+}
+
+.campo_nome{
+
+    border: none;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.nome{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.campo_email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.email{
+    border-radius: 10px;
+    width: 295px;
+}
+
+.genero{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+    border: none;
+    padding: 10px;
+}
+
+.uf{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 10px; 
+}
+
+.personagem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+    border: none;
+    padding: 10px;
+}
+
+.campo_experiencia{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border: none;
+    padding: 10px;
+}
+
+.experiencia{
+    margin-top: 20px;
+
+    width: 600px;
+    height: 200px;
+
+    
+    border-radius: 10px;
+}
+
+.concluido{
+    display: inline-flex;
+
+    padding: 0.90em;
+
+    text-align: center;
+    width: auto;
+
+    background-color:rgb(251, 255, 6);
+    border-radius: 20px;
+    border: none;
+
+    font-size: 20px;
+
+    color: #000000;
+}
+
+.concluido:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
